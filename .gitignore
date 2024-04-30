@@ -1,0 +1,7 @@
+.idea*
+.phpstorm*
+.phpunit.result.cache
+
+vendor/
+.env
+templates/cache/

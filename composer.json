@@ -1,0 +1,33 @@
+{
+    "name": "bojan/php-grapejs",
+    "autoload": {
+        "files": [
+            "src/Helper/helper.php"
+        ],
+        "psr-4": {
+            "Bojan\\PhpGrapejs\\": "src/",
+            "Bojan\\PhpGrapejs\\Container\\": "container/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bojan Djurdjevic",
+            "email": "bdjurdjevic@springshare.com"
+        }
+    ],
+    "require": {
+        "league/route": "^5.1",
+        "laminas/laminas-diactoros": "^3.3",
+        "laminas/laminas-httphandlerrunner": "^2.10",
+        "doctrine/orm": "^3.1",
+        "doctrine/dbal": "^4.0",
+        "symfony/cache": "^6.4",
+        "league/container": "^4.2",
+        "laminas/laminas-di": "^3.13",
+        "vlucas/phpdotenv": "^5.6",
+        "jenssegers/blade": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
+    }
+}
